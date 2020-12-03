@@ -23,4 +23,5 @@ class Journey
     @finished_journey
   end
 
-end
+end 
+

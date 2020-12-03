@@ -2,14 +2,13 @@ require './lib/journey'
 
 class Oystercard
 
-  attr_reader :balance, :history, :journey
+  attr_reader :balance, :journey
 
   BALANCE_LIMIT = 90
   MINIMUM_BALANCE = 1
 
   def initialize
-    @balance = 0
-    @history = []
+    @balance = 0 
     @journey = Journey.new
   end
 
